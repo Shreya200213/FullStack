@@ -1,0 +1,65 @@
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2>This is HTML form</h2>
+    <form action="backend.php">
+        <label for="name"> Name</label>
+        <div>
+          <input type="text" name="myName">
+        </div>
+        <br>
+        <div>
+            Roll No: <input type="text" name="myRoll No">
+        </div>
+        <br>
+        <div>
+            USN: <input type="email" name="myUSN">
+        </div>
+
+        <br>
+        <div>
+            DOB: <input type="date" name="myDOB">
+        </div>
+        <br>
+        <div>
+            Phone No: <input type="number" name="myPhone No">
+        </div>
+        <br>
+        <div>
+            Are you eligible?: <input type="checkbox" name="myEligibility" checked>
+        </div>
+        <br>
+        <div>
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender">
+            Other <input type="radio" name="myGender">
+        </div>
+
+       
+
+        <br>
+        <div>
+            <label for="branch">Branch</label>
+            <select name="mybranch" id="branch">
+                <option value="CSE">Computer Science</option>
+                <option value="E&C">Electronics and Communication</option>
+            <option value = "EEE">Electrical and Electronics Engineering</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <input type="submit" value="Submit Now">
+            
+        </div>
+    </form>
+</body>
+
+</html>
