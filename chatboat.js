@@ -1,9 +1,9 @@
 function talk(){
     var know = {
-    "What is your name??" : "My name is Robo ",
+    "What is your name" : "My name is Robo ",
     "How are you" : " I am fine, Thank you :)",
-    "How was your day??" : "The day was pretty good",
-    "Which language do you speak??" : "I can speak in English ",
+    "How was your day" : "The day was pretty good",
+    "Which language do you speak" : "I can speak in English ",
     "ok" : "Thank You So Much ",
     "Bye" : "Okay! Will meet soon.."
     };
