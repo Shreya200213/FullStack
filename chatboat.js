@@ -1,9 +1,9 @@
 function talk(){
     var know = {
-    "Who are you" : "Hello, Codewith_random here ",
-    "How are you" : "Good :)",
-    "What can i do for you" : "Please Give us A Follow & Like.",
-    "Your followers" : "I have my family of 5000 members, i don't have follower ,have supportive Famiy ",
+    "What is your name??" : "My name is Robo ",
+    "How are you" : " I am fine, Thank you :)",
+    "How was your day??" : "The day was pretty good",
+    "Which language do you speak??" : "I can speak in English ",
     "ok" : "Thank You So Much ",
     "Bye" : "Okay! Will meet soon.."
     };
